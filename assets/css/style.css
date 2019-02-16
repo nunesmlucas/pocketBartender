@@ -1,0 +1,63 @@
+body { 
+    background: url(../images/ring.jpg);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1.5vw;
+
+}
+h1 {
+    font-size: 3vw;
+    padding-top: 1vw;
+}
+h3{
+    font-size: 2vw;
+}
+form{
+    font-size: 1.5vw;
+} 
+.btn{
+    font-size: 2.5vw;
+}
+
+#header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+    border: .5vw;
+    border-style: double;
+    border-color:rgb(150, 42, 42);
+    display: block;
+    margin-top: 5vw; 
+}
+#drinkBox, #musician-text {
+    background-color:rgb(252, 145, 145);
+    width: 80%;
+    border: .5vw;
+    border-style: double;
+    border-color: rgb(150, 42, 42);
+}
+
+ul {
+    list-style: none;
+}
+
+#imageDiv{
+    margin-left: 8%;
+    margin-top: 2%;
+}
+#artistForm{
+    margin-left: 100px;
+}
+.img-responsive {
+    margin: 0 auto;
+    width: 300px;
+}
+#artist-img {
+    margin-left: 5vw;
+}

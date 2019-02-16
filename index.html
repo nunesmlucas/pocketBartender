@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pocket Bartender</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <link rel='stylesheet' href='assets/css/style.css' />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script defer type="text/javascript" src="assets/javascript/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Thasadith:400,700" rel="stylesheet">
+</head>
+
+<div class="container">
+    <div id="header"><img src="assets/images/pb.png" alt="PocketBartender"></div>
+    <div class="row">
+        <div class="col">
+            <h1>Pour yourself a drink...</h1>
+        </div>
+        <div class="col-md-auto" id="drinksForm">
+            <form>
+                <input type="text" name="drinkName" placeholder='Alcohol Type..' id='alcoholType'>
+                <input type="submit" value="Submit" class="btn btn-outline-dark" id="alcoholSubmit">
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md">
+            <div id="imageDiv">
+                <img class="img-responsive img-center" src="assets/images/pre-mixed-cocktails.jpg">
+            </div>
+        </div>
+        <div class="col-md-6" id="drinkBox">
+            <h3>Instructions:</h3>
+            <h5>
+                <div class="drinks-instructions">
+                    <!-- <p> tag here with instructions. -->
+                    <p>
+                        Please pay close attention to the instructions as some are more difficult than others.
+                    </p>
+                </div>
+            </h5>
+            <div class='ingredients-div'>
+                <h3><span id="ing-span">Ingredients:</span></h3>
+                <ul id="unordered"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md">
+            <h1>...and set the mood.</h1>
+        </div>
+        <div class="col-md-auto" id="artistForm">
+            <form>
+                <input id="artistType" type="text" name="artistName" placeholder="Search artist...">
+                <input type="submit" value="Submit" class="btn btn-outline-dark" id="artistSubmit">
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6" id="musician-text">
+            <div class="col">
+                <div class="row">
+                    <h3><span id="artist-name"></span></h3>
+                </div>
+                <div class="row">
+                    <h3>Albums</h3>
+                </div>
+                <div class="row">
+                    <ul id="unorderedArtist">
+                        
+                    </ul>
+                </div>
+                <div class="row align-items-end">
+                    <p id="artist-link">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="artist-img" class="col-md-4">
+            <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/music.jpg" class="img-responsive img-center d-block" alt="Music Photo">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+</body>
